@@ -11164,7 +11164,9 @@ self.C3_ExpressionFuncs = [
 			return () => ((((n0.ExpObject() - n1.ExpObject()) * Math.sin(C3.toRadians((-90)))) + ((n2.ExpObject() - n3.ExpObject()) * Math.cos(C3.toRadians((-90))))) + n4.ExpObject());
 		},
 		() => 180,
+		() => "Desktop",
 		() => 8,
+		() => "Mobile",
 		() => 270,
 		() => 112,
 		() => -64,
@@ -11230,7 +11232,6 @@ self.C3_ExpressionFuncs = [
 		() => "lastgametime",
 		() => "hasplayed",
 		() => "lastchecktime",
-		() => "Desktop",
 		() => "Игрок",
 		() => "0",
 		() => "sendscore2",

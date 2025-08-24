@@ -105,8 +105,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.AJAX.Acts.Post,
 		C3.Plugins.Arr.Exps.AsJSON,
 		C3.Plugins.AJAX.Exps.LastStatusCode,
-		C3.ScriptsInEvents.Tetris_Event114_Act12,
-		C3.ScriptsInEvents.Tetris_Event116_Act1,
+		C3.ScriptsInEvents.Tetris_Event115_Act12,
+		C3.ScriptsInEvents.Tetris_Event117_Act1,
 		C3.Plugins.Sprite.Cnds.PickTopBottom,
 		C3.Plugins.System.Acts.GoToLayout,
 		C3.Plugins.Eponesh_GameScore.Acts.LeaderboardOpen,
@@ -216,11 +216,11 @@ self.C3_GetObjectRefTable = function () {
 		C3.ScriptsInEvents.Tetris3_Event22_Act1,
 		C3.Plugins.Arr.Acts.SetX,
 		C3.Plugins.Text.Acts.MoveForward,
-		C3.ScriptsInEvents.Tetris3_Event359_Act3,
+		C3.ScriptsInEvents.Tetris3_Event360_Act3,
 		C3.Plugins.Text.Acts.SetFontColor,
 		C3.Plugins.Multiplayer.Cnds.OnHostDisconnected,
 		C3.Plugins.Multiplayer.Exps.HostAlias,
-		C3.ScriptsInEvents.Tetris3_Event734_Act1,
+		C3.ScriptsInEvents.Tetris3_Event735_Act1,
 		C3.Plugins.Text.Acts.SetFontSize,
 		C3.ScriptsInEvents.Gameover_Event1_Act1,
 		C3.ScriptsInEvents.Gameover_Event1_Act2,
@@ -237,8 +237,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.ScriptsInEvents.Tetrisshadowevent_Event3_Act3,
 		C3.ScriptsInEvents.Tetrisshadowevent_Event4_Act1,
 		C3.ScriptsInEvents.Tetrisshadowevent_Event5_Act1,
-		C3.ScriptsInEvents.Tetrisshadowevent_Event112_Act1,
-		C3.ScriptsInEvents.Tetrisshadowevent_Event112_Act2,
 		C3.ScriptsInEvents.Tetrisshadowevent_Event113_Act1,
 		C3.ScriptsInEvents.Tetrisshadowevent_Event113_Act2,
 		C3.ScriptsInEvents.Tetrisshadowevent_Event114_Act1,
@@ -249,10 +247,12 @@ self.C3_GetObjectRefTable = function () {
 		C3.ScriptsInEvents.Tetrisshadowevent_Event116_Act2,
 		C3.ScriptsInEvents.Tetrisshadowevent_Event117_Act1,
 		C3.ScriptsInEvents.Tetrisshadowevent_Event117_Act2,
+		C3.ScriptsInEvents.Tetrisshadowevent_Event118_Act1,
+		C3.ScriptsInEvents.Tetrisshadowevent_Event118_Act2,
 		C3.ScriptsInEvents.Tetrisshadoweventreal_Event21_Act1,
 		C3.ScriptsInEvents.Tetrisshadoweventreal_Event22_Act1,
-		C3.ScriptsInEvents.Tetrisshadoweventreal_Event260_Act2,
-		C3.ScriptsInEvents.Tetrisshadoweventreal_Event293_Act3
+		C3.ScriptsInEvents.Tetrisshadoweventreal_Event261_Act2,
+		C3.ScriptsInEvents.Tetrisshadoweventreal_Event294_Act3
 	];
 };
 self.C3_JsPropNameTable = [

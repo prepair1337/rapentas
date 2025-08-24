@@ -13,12 +13,12 @@ const scriptsInEvents = {
 		window.ysdk.multiplayer.sessions.init()
 	},
 
-	async Tetris_Event114_Act12(runtime, localVars)
+	async Tetris_Event115_Act12(runtime, localVars)
 	{
 		
 	},
 
-	async Tetris_Event116_Act1(runtime, localVars)
+	async Tetris_Event117_Act1(runtime, localVars)
 	{
 		window.ysdk.features.GameplayAPI?.start();
 	},
@@ -57,7 +57,7 @@ const scriptsInEvents = {
 		// Игровой процесс активен.
 	},
 
-	async Tetris3_Event359_Act3(runtime, localVars)
+	async Tetris3_Event360_Act3(runtime, localVars)
 	{
 		ysdk.multiplayer.sessions.commit({
 		  score: runtime.globalVars.sravnaochi,   // Текущие очки
@@ -65,7 +65,7 @@ const scriptsInEvents = {
 		});
 	},
 
-	async Tetris3_Event734_Act1(runtime, localVars)
+	async Tetris3_Event735_Act1(runtime, localVars)
 	{
 		ysdk.multiplayer.sessions.push({
 		  meta1: runtime.globalVars.sravnaochi,
@@ -233,22 +233,6 @@ try {
 		// Игровой процесс активен.
 	},
 
-	async Tetrisshadowevent_Event112_Act1(runtime, localVars)
-	{
-		ysdk.multiplayer.sessions.commit({
-		  score: runtime.globalVars.sravnaochi,     // Очки
-		  nick: runtime.globalVars.nick             // Ник
-		});
-	},
-
-	async Tetrisshadowevent_Event112_Act2(runtime, localVars)
-	{
-		const ysdk = await YaGames.init();
-		
-		
-		ysdk.features.GameplayAPI?.stop()
-	},
-
 	async Tetrisshadowevent_Event113_Act1(runtime, localVars)
 	{
 		ysdk.multiplayer.sessions.commit({
@@ -329,6 +313,22 @@ try {
 		ysdk.features.GameplayAPI?.stop()
 	},
 
+	async Tetrisshadowevent_Event118_Act1(runtime, localVars)
+	{
+		ysdk.multiplayer.sessions.commit({
+		  score: runtime.globalVars.sravnaochi,     // Очки
+		  nick: runtime.globalVars.nick             // Ник
+		});
+	},
+
+	async Tetrisshadowevent_Event118_Act2(runtime, localVars)
+	{
+		const ysdk = await YaGames.init();
+		
+		
+		ysdk.features.GameplayAPI?.stop()
+	},
+
 	async Tetrisshadoweventreal_Event21_Act1(runtime, localVars)
 	{
 		
@@ -347,12 +347,12 @@ try {
 		// Игровой процесс активен.
 	},
 
-	async Tetrisshadoweventreal_Event260_Act2(runtime, localVars)
+	async Tetrisshadoweventreal_Event261_Act2(runtime, localVars)
 	{
 		window.ysdk.features.GameplayAPI?.stop()
 	},
 
-	async Tetrisshadoweventreal_Event293_Act3(runtime, localVars)
+	async Tetrisshadoweventreal_Event294_Act3(runtime, localVars)
 	{
 		window.ysdk.multiplayer.sessions.commit({
 		    score: runtime.globalVars.sravnaochi
