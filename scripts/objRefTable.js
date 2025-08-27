@@ -559,6 +559,7 @@ self.C3_JsPropNameTable = [
 	{zapreta: 0},
 	{signalaest: 0},
 	{mozhnoajaxotrapv: 0},
+	{prishelajaxnicki: 0},
 	{hasStar: 0},
 	{mozhnoizmenit: 0},
 	{vvedeniynick: 0},

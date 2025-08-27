@@ -11166,7 +11166,6 @@ self.C3_ExpressionFuncs = [
 		() => 180,
 		() => "Desktop",
 		() => 8,
-		() => "Mobile",
 		() => 270,
 		() => 112,
 		() => -64,
@@ -11353,11 +11352,12 @@ self.C3_ExpressionFuncs = [
 			const n0 = p._GetNode(0);
 			return () => (("{\"text\":\"" + n0.ExpObject()) + "\"}");
 		},
+		() => "sisyagnalanicikiajax",
+		() => "sisyagnalnicka",
 		p => {
 			const n0 = p._GetNode(0);
 			return () => n0.ExpObject("result.allowed");
 		},
-		() => "sisyagnalnicka",
 		() => 0.1,
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
