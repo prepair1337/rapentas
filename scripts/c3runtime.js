@@ -11193,10 +11193,6 @@ self.C3_ExpressionFuncs = [
 			const n1 = p._GetNode(1);
 			return () => (v0.GetValue() / (1 + (n1.ExpInstVar() / 15)));
 		},
-		p => {
-			const n0 = p._GetNode(0);
-			return () => (4 * Math.round((n0.ExpObject() / 4)));
-		},
 		() => "TAPA",
 		() => "kill",
 		p => {
