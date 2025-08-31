@@ -11166,10 +11166,14 @@ self.C3_ExpressionFuncs = [
 		() => 180,
 		() => "Desktop",
 		() => 8,
+		p => {
+			const v0 = p._GetNode(0).GetVar();
+			return () => (v0.GetValue() + 0.033);
+		},
 		() => 270,
 		() => 112,
 		() => -64,
-		() => 192,
+		() => 193,
 		() => "PAUSE",
 		() => 0.5,
 		p => {
@@ -11188,6 +11192,10 @@ self.C3_ExpressionFuncs = [
 			const v0 = p._GetNode(0).GetVar();
 			const n1 = p._GetNode(1);
 			return () => (v0.GetValue() / (1 + (n1.ExpInstVar() / 15)));
+		},
+		p => {
+			const n0 = p._GetNode(0);
+			return () => (4 * Math.round((n0.ExpObject() / 4)));
 		},
 		() => "TAPA",
 		() => "kill",
@@ -11225,6 +11233,7 @@ self.C3_ExpressionFuncs = [
 		() => "Виньетка",
 		() => "wss://multiplayer.construct.net",
 		() => "Game2",
+		() => 192,
 		() => "bazaid",
 		() => "namenicka",
 		() => 7,

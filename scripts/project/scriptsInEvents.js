@@ -13,12 +13,12 @@ const scriptsInEvents = {
 		window.ysdk.multiplayer.sessions.init()
 	},
 
-	async Tetris_Event115_Act12(runtime, localVars)
+	async Tetris_Event117_Act12(runtime, localVars)
 	{
 		
 	},
 
-	async Tetris_Event117_Act1(runtime, localVars)
+	async Tetris_Event119_Act1(runtime, localVars)
 	{
 		window.ysdk.features.GameplayAPI?.start();
 	},
