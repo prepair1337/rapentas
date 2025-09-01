@@ -11061,8 +11061,7 @@ self.C3_ExpressionFuncs = [
 		() => "application/json",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
-			const f1 = p._GetNode(1).GetBoundMethod();
-			return () => f0(f1(7));
+			return () => Math.floor(f0(7));
 		},
 		() => "zaideno",
 		() => "bestscore",
